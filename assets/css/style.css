@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&family=Bungee+Inline&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+:root{
+    /* font-size */
+ --fs-sm:16px;
+ --fs-md:20px;
+ --fs-lg:28px;
+ --fs-xl:35px;
+}
+.container{
+    max-width: 1164px !important;
+    padding: 0 12px;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.ff-baloo{
+    font-family: "Baloo Thambi 2", system-ui;
+}
+.head-bg{
+    background-image: url("/assets/images/webp/kitti-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.logo{
+    font-size: var(--fs-lg);
+    font-weight: 700;
+    line-height: 120%;
+}
+.nav-bg{
+ background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 47.18%, rgba(0, 0, 0, 0.01) 100%);
+    padding: 21px 0;
+}
+h1{
+    font-family:"Bungee Inline",sans-serif;
+    font-size: var(--fs-xl);
+    line-height: 110%;
+    max-width: 930px;
+    font-weight: normal;
+}
+.circle{
+    width: 36.29px;
+    height: 36.29px;
+    border-radius: 50%;
+    border: 0.79px solid #FFFFFF;
+    box-shadow: 0 0 3px -1px #FFFFFF inset;
+}
+
+.paragraph{
+    font-size: var(--fs-sm);
+    line-height: 150%;
+    max-width: 721px;
+    font-weight: normal;
+}
+.button{
+    background-color: #00C2FF;
+    color: black;
+    padding: 16px 24px;
+    border-radius: 6px;
+    border:none;
+    font-size: var(--fs-md);
+    font-weight: 600;
+    line-height: 150%;
+}
+.color-white{
+    color: #FFFFFF;
+}
+.color-blue{
+    color: #00C2FF !important;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    text-align: center;
+}
+.gap-16{
+    gap: 16px;
+}
+.section-top-padding{
+    padding-top: 150px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+@media (min-width:576px) {
+    :root{
+        /* font-size */
+     --fs-sm:18px;
+     --fs-md:20px;
+     --fs-lg:32px;
+     --fs-xl:40px;
+    }
+}
+@media (min-width: 768px) {
+    :root{
+        /* font-size */
+     --fs-sm:18px;
+     --fs-md:20px;
+     --fs-lg:32px;
+     --fs-xl:55px;
+    } 
+    .section-top-padding{
+        padding-top: 100px;
+    }
+}
